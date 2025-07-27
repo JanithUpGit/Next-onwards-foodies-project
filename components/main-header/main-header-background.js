@@ -4,7 +4,7 @@ export default function MainHeaderBackground(){
 
     return <>
         <div className={classes["header-background"]}>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className={classes.svg}>
             <defs>
               <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
                 <stop
