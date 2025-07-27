@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
@@ -34,7 +36,7 @@ export default function ImageSlideshow() {
   }, []);
 
   return (
-    <div className={classes.slideshow}>
+    <div className={classes.slideshow} >
       {images.map((image, index) => (
         <Image
           key={index}
