@@ -10,7 +10,7 @@ async function Meals(){
     return  <MealsGrid meals={meals} />
 }
 
-export default async function MealsPage(){
+export default function MealsPage(){
 
    
 
