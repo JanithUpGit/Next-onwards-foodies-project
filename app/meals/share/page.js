@@ -1,4 +1,5 @@
 'use client';
+export const dynamic = 'force-dynamic';
 import ImagePicker from '@/components/meals/image-pieker';
 import classes from './page.module.css';
 import { shareMeal } from '@/lib/actions';
